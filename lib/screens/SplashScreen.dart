@@ -16,13 +16,11 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-      child: AnimatedSplashScreen(
-        duration: 2000,
-        nextScreen: Refer_LoginPage(),
-        splash: 'images/Splash.png',
-        splashIconSize: 1080.0,
-      ),
+        body: AnimatedSplashScreen(
+      duration: 2000,
+      nextScreen: Refer_LoginPage(),
+      splash: 'images/Splash.png',
+      splashIconSize: 12780.0,
     ));
   }
 }
